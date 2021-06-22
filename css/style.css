@@ -1,0 +1,293 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Heebo', sans-serif;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+.clear{
+	clear: both;
+}
+
+.container{
+	max-width: 1280px;
+	margin:0 auto;
+	padding: 0 2%;
+}
+
+/*Header*/
+
+header{
+	width: 100%;
+	text-align: center;
+}
+
+header .container{
+	padding: 40px 2%;
+
+}
+
+.menu-mobile{
+	display: none;
+}
+
+.menu-desktop ul{
+
+}
+
+.menu-desktop ul li{
+	display: inline-block;
+	font-weight: 300;
+	padding: 0 20px;
+}
+
+.menu-desktop ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+/*****/
+
+/*Section - Texto Capa*/
+
+.capa{
+	width: 100%;
+	text-align: center;
+}
+
+.banner-texto-capa{
+	width: 100%;
+	min-height: 800px;
+	background-image: url('../imagens/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.opacity{
+	width: 100%;
+	min-height: 220px;
+	background-image: linear-gradient(black, rgba(0,0,0,0));
+}
+
+.opacity2{
+	width: 100%;
+	min-height: 250px;
+	background-image: linear-gradient(rgba(0,0,0,0), black);
+	position: absolute;
+	bottom: 0;
+}
+
+.texto-capa{
+	text-align: center;
+	position: relative;
+	top: -70px;
+}
+
+
+.texto-capa h2{
+	color: #0b3e35;
+	font-size: 35px;
+}
+
+.texto-capa strong{
+	color: #34a491;
+	font-size: 70px;
+}
+
+.redes-sociais{
+	margin-top: 30px;
+	text-shadow: 2px 5px 2px black, 2px 5px 5px black,2px 5px 8px black;
+}
+
+.redes-sociais ul li{
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.redes-sociais ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	
+}
+
+/****/
+
+/*Section - Quem sou eu? (Sobre)*/
+
+section.sobre{
+	width: 100%;
+	padding: 20px 2% 50px 2%;
+}
+
+section.sobre .sobre-foto-perfil{
+	width: 40%;
+	float: left;
+	min-height:520px;
+	background-image: url('../imagens/sobre-profile.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+section.sobre .descricao-sobre{
+	width: 60%;
+	float: right;
+	padding: 0 20px;
+}
+
+section.sobre .descricao-sobre h2{
+	color: white;
+	font-size: 30px;
+}
+
+section.sobre .descricao-sobre span{
+	color: white;
+
+}
+
+section.sobre .descricao-sobre p{
+	color: white;
+	text-align: justify;
+	margin-top: 20px;
+	line-height: 30px;
+}
+
+section.sobre .descricao-sobre strong{
+	color: #34a491;
+	background-color: black;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.barra-conhecimentos{
+	width: 80%;
+}
+
+.container-text{
+	font-size: 12px;
+	padding: 15px 0;
+}
+
+.container-text h3:first-child{
+	float: left;
+}
+
+.container-text h3{
+	float: right;
+	color: white;
+}
+
+.barra-design{
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(to right, #2e796c 0%, #2e796c 80%, #d9d9d9 80%, #d9d9d9 100%);
+}
+
+.barra-photography{
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(to right, #2e796c 0%, #2e796c 60%, #d9d9d9 60%, #d9d9d9 100%);
+}
+
+.barra-marketing{
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(to right, #2e796c 0%, #2e796c 50%, #d9d9d9 50%, #d9d9d9 100%);
+}
+
+.barra-branding{
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(to right, #2e796c 0%, #2e796c 75%, #d9d9d9 75%, #d9d9d9 100%);
+}
+
+.dados-contato{
+	width: 200px;
+	padding: 20px 0;
+	display: inline-block;
+}
+
+.dados-contato div{
+	display: inline-block;
+	color: white;
+	font-size: 16px;
+}
+
+.logo-whatsapp{
+	width: 20px;
+	height: 20px;
+	background-image: url('../imagens/whatsapp.png');
+	background-size: 100% 100%;
+	position: relative;
+	top: 4px;
+}
+
+.logo-email{
+	width: 20px;
+	height: 20px;
+	background-image: url('../imagens/email.png');
+	background-size: 100% 100%;
+	position: relative;
+	top: 4px;
+}
+
+
+.btn1{
+	width: 130px;
+	height: 50px;
+	padding: 15px;
+	text-align: center;
+	color: white;
+	background-color: #34a491;
+	cursor: pointer;
+	display: inline-block;
+}
+
+a .btn1{
+	text-decoration: none;
+	color: white;
+}
+
+/**/
+
+/*Section - Servicos*/
+
+section.servicos{
+	padding: 30px 2%;
+	background-color: #1a1a1a;
+	text-align: center;
+}
+
+section.servicos h2{
+	font-size: 30px;
+	color: white;
+}
+
+section.servicos span{
+	color: white;
+}
+
+.secoes{
+	width: 100%;
+	margin-top: 100px;
+}
+
+.secao{
+	width: 33.3%;
+	height: 300px;
+	float: left;
+}
+
+
+
+/**/
